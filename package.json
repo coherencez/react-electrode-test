@@ -23,9 +23,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "gulp dev",
     "test": "gulp test",
-    "coverage": "gulp check"
+    "coverage": "gulp check",
+    "heroku-postbuil": "gulp build",
+    "start": "gulp dev",
   },
   "dependencies": {
     "bluebird": "^3.4.6",
