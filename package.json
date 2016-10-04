@@ -8,11 +8,14 @@
     "email": "swann@swanntoo.com",
     "url": "swanntoo.com"
   },
+  "engines": {
+    "node": "6.x"
+  },
   "contributors": [],
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
+  "main": "server/index.js",
   "keywords": [],
   "repository": {
     "type": "git",
