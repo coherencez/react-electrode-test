@@ -9,7 +9,7 @@
     "url": "swanntoo.com"
   },
   "engines": {
-    "node": "4.2.x"
+    "node": "6.x"
   },
   "contributors": [],
   "files": [
