@@ -8,11 +8,14 @@
     "email": "swann@swanntoo.com",
     "url": "swanntoo.com"
   },
+  "engines": {
+    "node": "6.x"
+  },
   "contributors": [],
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
+  "main": "server/index.js",
   "keywords": [],
   "repository": {
     "type": "git",
@@ -20,9 +23,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "gulp dev",
     "test": "gulp test",
-    "coverage": "gulp check"
+    "coverage": "gulp check",
+    "heroku-postbuil": "gulp build",
+    "start": "node server/index.js"
   },
   "dependencies": {
     "bluebird": "^3.4.6",
